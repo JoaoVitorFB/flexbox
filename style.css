@@ -1,0 +1,43 @@
+body{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(91,91,91,1) 100%);
+    
+}
+
+.caixa{
+    width: 50%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,158,179,1) 0%, rgba(0,179,157,1) 100%);
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.bolinha{
+    background-color: aliceblue;
+    width: 130px;
+    height: 130px;
+    margin: 20px;
+    border-radius: 50%;   
+}
+
+.texto{
+    background-color: rgba(0, 0, 0, 60%);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-block-end: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+b{
+  color: rgb(0, 179, 157);  
+  font-size: 20px;
+}
